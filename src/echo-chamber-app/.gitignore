@@ -1,0 +1,15 @@
+.DS_Store
+.dart_tool/
+
+.packages
+.pub/
+
+build/
+
+.flutter-plugins
+
+.idea/
+
+approov/flutter-httpclient/
+approov-initial.config
+.flutter-plugins-dependencies
