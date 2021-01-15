@@ -47,18 +47,18 @@ git clone https://github.com/approov/quickstart-flutter-httpclient.git approov/f
 If you want to build for Android then download the Android Approov SDK and add it to the Approov plugin, by executing from `src/echo-chamber-app` folder:
 
 ```text
-approov sdk -getLibrary approov/flutter-httpclient/approovsdkflutter/android/approovsdk/approovsdk.aar
+approov sdk -getLibrary approov/flutter-httpclient/approov_http_client/android/approov-sdk.aar
 ```
-> **NOTE:** The approov command is downloading the Approov SDK into the folder `src/echo-chamber-app/approov/flutter-httpclient/approovsdkflutter/android/approovsdk/approovsdk.aar`
+> **NOTE:** The approov command is downloading the Approov SDK into the folder `src/echo-chamber-app/approov/flutter-httpclient/approov_http_client/android/approov-sdk.aar`
 
 Instead, if you want to build for iOS execute from `src/echo-chamber-app` folder:
 
 ```text
 approov sdk -getLibrary approov.zip
-unzip approov.zip -d approov/flutter-httpclient/approovsdkflutter/ios
+unzip approov.zip -d approov/flutter-httpclient/approov_http_client/ios
 rm -rf approov.zip
 ```
-> **NOTE:** The unzip command is unzipping the Approov library into `src/echo-chamber-app/approov/flutter-httpclient/approovsdkflutter/ios`
+> **NOTE:** The unzip command is unzipping the Approov library into `src/echo-chamber-app/approov/flutter-httpclient/approov_http_client/ios`
 
 Next, retrieve the `approov-initial.config` and save it into `src/echo-chamber-app/approov-initial.config`. From inside the `src/echo-chamber-app` folder execute:
 
