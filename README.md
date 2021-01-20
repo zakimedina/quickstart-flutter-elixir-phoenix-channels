@@ -64,7 +64,7 @@ Clone the Approov Flutter plugin into the `approov` folder:
 ```text
 git clone https://github.com/approov/quickstart-flutter-httpclient.git approov
 ```
-> **NOTE:** The Approov Flutter plugin will be located att `your-project/approov` folder
+> **NOTE:** The Approov Flutter plugin will be located at `your-project/approov` folder
 
 Download the Android Approov SDK and add it to the Approov plugin:
 
@@ -154,8 +154,6 @@ class UserAuth {
 
 }
 ```
-
-> **DISCLAIMER:** The above code doesn't include a WebSocketLink because we are working in a solution that allows to secure it with Approov.
 
 [TOC](#toc)
 
