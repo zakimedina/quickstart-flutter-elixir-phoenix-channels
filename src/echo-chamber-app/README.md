@@ -32,11 +32,13 @@ All commands to execute from a terminal will assume that you are inside the `src
 cd src/echo-chamber-app
 ```
 
-Now, from inside the `src/echo-chamber-app` folder create the `approov` folder:
+Now, from inside the `src/echo-chamber-app` folder, clone the Approov Flutter supporting packages into the `src/echo-chamber-app/approov` folder, by executing from `src/echo-chamber-app`:
 
 ```text
-mkdir approov
+git clone https://github.com/approov/approov-flutter-packages.git approov
 ```
+
+> **NOTE:** The Approov Flutter supporting packages _must_ be cloned first, then the Approov HTTP Client package or `git clone` will fail with the error: `src/app-final/approov` directory not empty.
 
 Clone the Approov Flutter plugin into the `src/echo-chamber-app/approov` folder, by executing from `src/echo-chamber-app`:
 
@@ -137,7 +139,7 @@ The value `h4gubfCFzJu81j/U2BJsdg==` is the device id, and you can read on our d
 
 Lets's check what have changed to enable Approov in each file...
 
-For `pubspec.yml` we execute from `src/echo-chamber-app`:
+For `pubspec.yaml` we execute from `src/echo-chamber-app`:
 
 ```text
 git diff pubspec.yaml
